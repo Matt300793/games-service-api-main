@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            "@common/*": ["src/common/*"],
+            "@constants/*": ["src/constants/*"],
+            "@config/*": ["src/config/*.json"],
+            "@models/*": ["src/models/*"],
+            "@decoration-service/*": ["src/services/decoration/*"],
+            "@dispatcher/*": ["src/dispatcher/*"],
+            "@room/*": ["src/dispatcher/room/*"]
+        }
+    }
+}
